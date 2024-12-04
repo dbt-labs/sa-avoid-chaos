@@ -1,3 +1,15 @@
+# ***Archival Notice***
+This repository has been archived.
+
+As a result all of its historical issues and PRs have been closed.
+
+Please *do not clone* this repo without understanding the risk in doing so:
+- It may have unaddressed security vulnerabilities
+- It may have unaddressed bugs
+
+<details>
+   <summary>Click for historical readme</summary>
+
 # dbt-avoid-chaos
 
 This repo can be used to configure dbt projects and automatically deploy them.
@@ -48,3 +60,4 @@ To remove a project
 2. remove the files from the repo
 
 In case the files have already been rmoved it is possible to trigger a `terraform destroy` on a previous branch/commit that still had the code.
+
